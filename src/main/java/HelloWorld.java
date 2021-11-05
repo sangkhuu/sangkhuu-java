@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/hello", (req, res) -> "Welcome to sangkhuu java cicd demo");
+		get("/hello", (req, res) -> "Welcome to sangkhuu java cicd demo. This line will trigger jenkins build");
 	}
 }
