@@ -12,3 +12,5 @@ public class HelloWorld implements SparkApplication {
 		get("/hello", (req, res) -> "Welcome to sangkhuu java cicd demo.");
 	}
 }
+
+# Upload a ton of features for my produce	
